@@ -1,17 +1,18 @@
 {
+  "background_color": "#fff8f8",
+  "dir": "ltr",
+  "display": "fullscreen",
   "name": "Gym.App",
+  "orientation": "portrait",
+  "scope": "/",
   "short_name": "Gym.App",
-  "description": "Your daily fitness partner.",
-  "start_url": "./index.html",
-  "scope": "./",
-  "display": "standalone",
-  "background_color": "#12100E",
-  "theme_color": "#12100E",
-  "orientation": "any",
-  "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  "start_url": "/index.html",
+  "theme_color": "#e7e7e7",
+  "description": "Your daily fitness partner",
+  "categories": [
+    "fitness",
+    "health",
+    "health &amp; fitness",
+    "lifestyle"
   ]
 }
